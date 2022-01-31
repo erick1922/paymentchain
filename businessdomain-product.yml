@@ -1,6 +1,6 @@
 ## YAML Template.
 server:
-  port: 8085
+  port: 8083
 
 spring:
   jpa:
