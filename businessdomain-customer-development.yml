@@ -1,0 +1,16 @@
+## YAML Template.
+server:
+  port: 8082
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect 
+  datasource:
+    #SPRING_DATASOURCE_URL environment variable will be something like -> jdbc:sqlserver://MySqlServer\\MyInstance:1433;DatabaseName=MyDbName;
+    url: jdbc:postgresql://127.0.0.1:5432/springboot 
+    username: postgres
+    password: postgres  
