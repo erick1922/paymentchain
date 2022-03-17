@@ -1,6 +1,6 @@
 ## YAML Template.
 server:
-  port: 8082
+  port: 0
 spring:
   jpa:
     show-sql: true
